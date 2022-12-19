@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+input,a{outline:none;}
+
+body {
+  font-family: Microsoft Yahei, Arial;
+  font-size: 14px;
+  background: rgba(255,255,255,1);
+  color: #2c3e50;
+  overflow: auto;
+}

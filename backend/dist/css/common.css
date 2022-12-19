@@ -1,0 +1,65 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hide_mobile {
+    display: none !important;
+  }
+}
+
+.el-select-dropdown {
+  z-index: 99999 !important;
+}
+
+/*class*/
+
+.center_block {
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* 盒子阴影 */
+.box_shadow {
+  box-shadow: 0 0 10px #ccc;
+}
+
+a:hover {
+  color: #59bfff;
+}
+
+.link {
+  color: #59bfff;
+}
+
+/* 隐藏 */
+.hide {
+  display: none !important;
+}

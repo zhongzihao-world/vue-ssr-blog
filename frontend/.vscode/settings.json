@@ -1,0 +1,24 @@
+{
+  "editor.fontSize": 14, // 字体
+  "editor.tabSize": 2, // tabsize
+  // 保存 eslint 修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.enable": true,
+  "fileheader.customMade": {
+    "Author": "git config user.name && git config user.email",
+    "Date": "Do not edit",
+    "LastEditors": "git config user.name && git config user.email",
+    "LastEditTime": "Do not edit",
+    "Description": "Do not edit"
+  },
+  "fileheader.configObj": {
+    "autoAdd": true,
+    "autoAlready": true,
+    "createHeader": true,
+    "filePathColon": "/",
+    "folderBlacklist": ["node_modules"],
+    "prohibitAutoAdd": ["json", "md", "map", "umd.js", "min.js", "html"]
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="keywords" content="前端工程师日记 小豪 小豪看世界">
+  <meta name="description" content="前端工程师日记 小豪 小豪看世界">
+  <title>{{ title }}</title>
+  <link rel="icon" href="http://cdn.zhongzihao.cn/icon.png" type="image/x-icon">
+  <link href="/css/reset.css" rel="stylesheet">
+  <link href="/css/base.css" rel="stylesheet">
+  <link href="/css/common.css" rel="stylesheet">
+  <link href="http://cdn.zhongzihao.cn/css/element-ui/element-ui.2.13.0.css" rel="stylesheet">
+  {{{ renderResourceHints() }}}
+  {{{ renderStyles() }}}
+</head>
+
+<body>
+  <!--vue-ssr-outlet-->
+  {{{ renderState() }}}
+  <script src="http://cdn.zhongzihao.cn/js/vue/vue.2.6.12.js"></script>
+  <script src="http://cdn.zhongzihao.cn/js/element-ui/element-ui.2.13.0.js"></script>
+  {{{ renderScripts() }}}
+</body>
+
+</html>

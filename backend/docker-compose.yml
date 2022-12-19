@@ -1,0 +1,31 @@
+version: "2.0"
+
+services:
+  mongodb:
+    image: mongo:latest
+    volumes:
+      - "/root/blog-backend/data:/data/db"
+    environment:
+      - TZ=Asia/Shanghai
+    networks:
+      - blog
+    restart: always
+  blog:
+    image: "blog:latest"
+    depends_on:
+      - mongodb
+    volumes:
+      - "/root/blog-backend/public:/blog-backend/OutPut"
+      - "/root/blog-backend/logs/page-log:/root/logs"
+    ports:
+      - "7001:7001"
+    environment:
+      - TZ=Asia/Shanghai
+      - MONGO_URL=mongodb://mongodb/blog
+    networks:
+      - blog
+    restart: always
+
+networks:
+  blog:
+    driver: bridge
