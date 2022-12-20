@@ -4,7 +4,7 @@
     <main>
       <router-view ref="router-view"> </router-view>
     </main>
-    <v-footer />
+    <!-- <v-footer /> -->
     <v-loading />
   </div>
 </template>

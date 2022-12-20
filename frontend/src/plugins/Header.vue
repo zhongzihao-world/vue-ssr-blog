@@ -30,7 +30,7 @@
           <a href="javascript:void(0)" @click="logout()" style="border-top:2px solid #59bfff;">退出</a>
         </div>
       </div>
-      <div class="nav_item hide" v-else>
+      <div class="nav_item" v-else>
         <router-link to="/login" class="nav_a" active-class="nav_active">登录</router-link>
       </div>
     </div>

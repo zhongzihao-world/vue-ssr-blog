@@ -9,8 +9,11 @@
 ```sh
 cd frontend
 npm i
-npm run serve
+npm run dev
 ```
+
+ssr 访问地址：http://localhost:3000/
+spa 访问地址：http://localhost:8080/
 
 运行后端工程
 
@@ -19,3 +22,21 @@ cd backend
 npm i
 npm run dev
 ```
+
+运行截图：
+
+登录页
+
+![](./assets/1.png)
+
+文章页面
+
+![](./assets/2.png)
+
+文章列表
+
+![](./assets/3.png)
+
+个人中心
+
+![](./assets/4.png)
